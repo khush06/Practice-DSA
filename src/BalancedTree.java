@@ -13,6 +13,9 @@ public class BalancedTree {
             System.out.println("Not Follows");
         else
             System.out.println("follows");
+
+
+        
     }
 
     public static int isBalanced(Node root){
