@@ -8,8 +8,5 @@ public class ArraysSort {
         Student[] arr = {new Student(5,"a"),new Student(3,"b"),new Student(5,"x"), new Student(56,"c"),
         new Student(34,"d"),new Student(5,"y")};
         Arrays.sort(arr); //fromIndex included, toindex excluded
-        for(int i = 0;i<arr.length;i++){
-            System.out.print(arr[i]+" ");
-        }
     }
 }
